@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: CELTG;
+	src:url("fonts/CELTG___.TTF");
+}
+
+
+#landing{
+	background-image: url("../assets/index_background.JPG");
+	background-size:cover;
+	height:100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	padding: 0 20px;
+	border-bottom: 1.5px solid #979797
+}
+
+#flag{
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: rgb(0,154,73);
+    background: linear-gradient(90deg, rgba(0,154,73,0.5) 32%, rgba(255,255,255,0.5) 33%, rgba(255,255,255,.5) 66%, rgba(255,121,0,0.5) 67%);
+	background-size:cover;
+	padding:75px;
+	align-content: center;
+	display: flex;
+}
+
+#landingTitle{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+	
+}
+#arrowLocation{
+	 position: relative;
+  top: 200px;
+}
+
+h1{
+	color:#fff;
+	text-align: center;
+	font-size:90px;
+	letter-spacing: 30px;
+	
+}
+
+h2{
+	font-size:30px;
+	color:#fff;
+	letter-spacing: 5px;
+	text-align: center;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+}
+
+
+
+#dublin, #kilkenny, #waterford, #cork, #killarney, #cashel{
+	display:grid;
+	
+	
+  width:1241px;
+  height:206px;
+  border: 6px solid #979797;
+  text-align: center;
+  align-content: center;
+	justify-content: center;
+  opacity: .95;
+  object-fit: cover;
+  margin-bottom: 50px
+}
+
+#dublin{
+	background: url("../assets/linkThumbnail/DublinThumbnail.png");
+}
+#kilkenny{
+
+  background: url("../assets/linkThumbnail/kilkennyThumbnail.png");
+}
+
+#waterford{
+	background: url("../assets/linkThumbnail/waterfordThumbnail.png");
+}
+
+#cork{
+	background: url("../assets/linkThumbnail/corkThumbnail.png")
+}
+
+#killarney{
+	background: url("../assets/linkThumbnail/killarneyThumbnail.png")
+}
+#cashel{
+	background: url("../assets/linkThumbnail/cashelThumbnail.png")
+}
+.linkTitle{
+	padding-top:20px;
+	display: inline-block;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+	letter-spacing: 30px;
+	text-transform: uppercase;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	color:aliceblue;
+}
+
+
+.celtic-arrow{
+	text-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+}
+.celtic-arrow * { box-sizing: border-box; }
+
+.celtic-arrow {
+  pointer-events: none;overflow: hidden;   width: 120px;  position: relative;  height: 190px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.celtic-arrow .group {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 46px;  height: 98px;  width: 62px;  position: relative;  margin: 0;  left: 29px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+
+
+.celtic-arrow .group .shape {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 0px;  height: 73.47%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.celtic-arrow .group .shape1 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 13.27%;  height: 73.47%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.celtic-arrow .group .shape2 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: 0px;  height: 73.47%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+/*
+.celtic-arrow.state0-to-state1 .group .down {  transition: all 0.001s ease-in-out 0.0s;  opacity: 0;
+}
+*/
+
+.celtic-arrow.state0-to-state1 .group {  pointer-events: auto;
+}
+
+.celtic-arrow {  
+}
+
+.celtic-arrow.state1-to-state2 .group {  transition: all 0.2s ease-in-out 0.0s;  width: 76px;top: 34px;left: 22px;pointer-events: auto;height: 121px;
+}
+
+/*
+.celtic-arrow.state1-to-state2 .group .down {  transition: all 0.6s ease-in 0.0s;  opacity: 1;width: 48.68%;top: 38.02%;left: 25.66%;
+}
+*/
+
+.celtic-arrow.state1-to-state2 .group .shape2 {  transition: all 0.4s ease-in-out 0.0s;  opacity: 0;height: 73.55%;
+}
+
+.celtic-arrow.state1-to-state2 .group .shape {  transition: all 0.4s ease-in-out 0.0s;  opacity: 0;height: 73.55%;
+}
+
+.celtic-arrow {  
+}
+
+.celtic-arrow.state2-to-state3 .group {  transition: all 0.4s ease-in 0.0s;  width: 53px;top: 53px;left: 33px;pointer-events: none;height: 85px;
+}
+
+.celtic-arrow.state2-to-state3 .group .shape {  transition: all 0.2s ease-in-out 0.0s;  height: 72.94%;
+}
+
+/*
+.celtic-arrow.state2-to-state3 .group .down {  transition: all 0.2s ease-in-out 0.0s;  opacity: 0;width: 49.06%;top: 35.29%;left: 25.47%;
+}
+*/
+
+.celtic-arrow.state2-to-state3 .group .shape2 {  transition: all 0.2s ease-in-out 0.0s;  height: 72.94%;
+}
+
+.celtic-arrow {  
+}
+
+/*
+.celtic-arrow.state3-to-state1 .group .down {  transition: all 0.2s ease-in 0.0s;  width: 48.39%;top: 35.71%;left: 25.81%;
+}
+*/
+
+.celtic-arrow.state3-to-state1 .group {  transition: all 0.2s ease-in-out 0.0s;  width: 62px;top: 46px;left: 29px;pointer-events: auto;height: 98px;
+}
+
+.celtic-arrow.state3-to-state1 .group .shape {  transition: all 0.2s ease-in-out 0.0s;  opacity: 1;height: 73.47%;
+}
+
+.celtic-arrow.state3-to-state1 .group .shape2 {  transition: all 0.2s ease-in-out 0.0s;  opacity: 1;height: 73.47%;
+}
+
+.celtic-arrow {  
+}
+
+/*
+.celtic-arrow.state2-to-state1 .group .down {  transition: all 0.2s ease-in-out 0.0s;  opacity: 0;width: 48.39%;top: 35.71%;left: 25.81%;
+}
+*/
+
+.celtic-arrow.state2-to-state1 .group {  transition: all 0.4s ease-in 0.0s;  width: 62px;top: 46px;left: 29px;pointer-events: auto;height: 98px;
+}
+
+.celtic-arrow.state2-to-state1 .group .shape {  transition: all 0.4s ease-in 0.0s;  opacity: 1;height: 73.47%;
+}
+
+.celtic-arrow.state2-to-state1 .group .shape2 {  transition: all 0.4s ease-in 0.0s;  opacity: 1;height: 73.47%;
+}
+
+.celtic-arrow {  
+}
+
+.celtic-arrow.state0 {
+  
+}
+/*
+.celtic-arrow.state1 .group .down {
+  opacity: 0.0039;
+}
+*/
+.celtic-arrow.state1 .group {
+  pointer-events: auto;
+}
+.celtic-arrow {
+  
+}
+/*
+.celtic-arrow.state2 .group .down {
+  top: 38.02%;
+  width: 48.68%;
+  left: 25.66%;
+}
+*/
+.celtic-arrow.state2 .group {
+  top: 34px;
+  height: 121px;
+  width: 76px;
+  left: 22px;
+  pointer-events: auto;
+
+}
+.celtic-arrow.state2 .group .shape {
+  height: 73.55%;
+  opacity: 0.0013;
+}
+.celtic-arrow.state2 .group .shape2 {
+  height: 73.55%;
+  opacity: 0.0055;
+}
+.celtic-arrow {
+  
+}
+/*
+.celtic-arrow.state3 .group .down {
+  top: 35.29%;
+  width: 49.06%;
+  left: 25.47%;
+  opacity: 0.0098;
+}
+*/
+.celtic-arrow.state3 .group .shape {
+  height: 72.94%;
+  opacity: 0.0054;
+}
+.celtic-arrow.state3 .group .shape2 {
+  height: 72.94%;
+  opacity: 0.0071;
+}
+.celtic-arrow.state3 .group {
+  top: 53px;
+  height: 85px;
+  width: 53px;
+  left: 33px;
+  pointer-events: none;
+
+}
+.celtic-arrow {
+  
+}

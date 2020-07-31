@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: "Garamond 2nd";
+src: url("fonts/CELTG___.TTF"); 
+}
+*{
+	font-family: CELTG;
+}
+
+#landing{
+		background-size:cover;
+	height:100vh;
+	display:flex;
+	flex-direction: column;
+	padding: 20 20px;
+}
+
+
+#home{
+	padding: 20px;
+}
+#title{
+	margin-top: 6.5em;
+}
+h1{
+	font-size:110px;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	text-align: center;
+}
+h2{
+	font-size: 3em;
+	text-transform: uppercase;
+	letter-spacing: .6em;
+	text-align: center;
+}
+
+.hrTop{
+	height:2px; 
+	border:none; 
+	color:#000; 
+	background-color:#000; 
+	width:80%; 
+	text-align:center; 
+	margin: 7px auto;
+}
+.hrBot{
+	height:1px; 
+	border:none; 
+	color:#000; 
+	background-color:#000; 
+	width:65%; 
+	text-align:center; 
+	margin: 0 auto 2em;
+}
+
+
+
+
+
+
+
+
+.castlefill * { box-sizing: border-box; }
+
+.castlefill {
+  pointer-events: none;overflow: hidden;  background-color: rgba(255,255,255,0.0); -ms-transform: rotate(0deg); /* IE 9 */
+ 
+}
+
+.castlefill .group {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);   height: 144px; width: 191px;  position: relative;  margin: 0;   -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.castlefill .group .castlehomefill {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: 0px;  height: 96.53%;  width: 96.86%;  position: absolute;  margin: 0;  left: 1.57%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.castlefill .group .castlehomefill .combinedshapecopy {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 0px;  height: 100%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.castlefill .group .castlehome {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: -2.08%;  height: 102.08%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.castlefill .group .castlehome .shape {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 0px;  height: 100%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.castlefill .group .home {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  right: 12.04%;  bottom: -3.47%;  height: 38px;  width: 71.20%;  position: absolute;  margin: 0;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.castlefill.state0-to-state1 .group .home {  transition: all 0.001s ease-in-out 0.0s;  opacity: 0;bottom: -3.36%;
+}
+
+.castlefill.state0-to-state1 .group .castlehome {  transition: all 0.001s ease-in-out 0.0s;  height: 102.01%;bottom: -2.01%;
+}
+
+.castlefill.state0-to-state1 .group .castlehomefill {  transition: all 0.001s ease-in-out 0.0s;  height: 96.64%;
+}
+
+.castlefill.state0-to-state1 .group {  pointer-events: auto;
+}
+
+.castlefill.state2-to-state1 .group .castlehome {  transition: all 0.4s ease-in-out 0.2s;  opacity: 0.991;max-width: 96961px;
+}
+
+.castlefill.state2-to-state1 .group .castlehomefill {  transition: all 0.4s ease-in-out 0.2s;  opacity: 1;
+}
+
+.castlefill.state2-to-state1 .group .home {  transition: all 0.2s ease-in-out 0.0s;  opacity: 0;
+}
+
+.castlefill.state2-to-state1 .group {  pointer-events: auto;
+}
+
+.castlefill.state1-to-state2 .group .castlehome {  transition: all 0.4s ease-in-out 0.0s;  opacity: 0.999;max-width: 39224px;
+}
+
+.castlefill.state1-to-state2 .group .castlehomefill {  transition: all 0.4s ease-in-out 0.0s;  opacity: 0;
+}
+
+.castlefill.state1-to-state2 .group .home {  transition: all 0.2s ease-in-out 0.4s;  opacity: 1;
+}
+
+.castlefill.state1-to-state2 .group {  pointer-events: auto;
+}
+
+.castlefill.state0 {
+  
+}
+.castlefill.state1 .group .castlehome {
+  bottom: -2.01%;
+  height: 102.01%;
+}
+.castlefill.state1 .group .castlehomefill {
+  height: 96.64%;
+}
+.castlefill.state1 .group .home {
+  bottom: -3.36%;
+  opacity: 0.006;
+}
+.castlefill.state1 .group {
+  pointer-events: auto;
+}
+.castlefill.state2 .group .castlehomefill {
+  height: 96.64%;
+  opacity: 0.0078;
+}
+.castlefill.state2 .group .home {
+  bottom: -3.36%;
+}
+.castlefill.state2 .group .castlehome {
+  bottom: -2.01%;
+  height: 102.01%;
+}
+.castlefill.state2 .group {
+  pointer-events: auto;
+}
+
+
+
+
+.blackcelticarrow * { box-sizing: border-box; }
+
+.blackcelticarrow {
+  pointer-events: none;overflow: hidden;  background-color: rgba(255,255,255,0.0);  width: 120px;  position: relative;  height: 190px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.blackcelticarrow .group {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 46px;  height: 98px;  width: 62px;  position: relative;  margin: 0;  left: 29px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.blackcelticarrow .group .combinedshape {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 0px;  height: 73.47%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.blackcelticarrow .group .combinedshape1 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 13.27%;  height: 73.47%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.blackcelticarrow .group .combinedshape2 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: 0px;  height: 73.47%;  width: 100%;  position: absolute;  margin: 0;  left: 0px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.blackcelticarrow.state0-to-state1 .group {  pointer-events: auto;
+}
+
+.blackcelticarrow.state1-to-state2 .group .combinedshape2 {  transition: all 0.3s ease-in-out 0.0s;  opacity: 0;
+}
+
+.blackcelticarrow.state1-to-state2 .group .combinedshape {  transition: all 0.3s ease-in-out 0.0s;  opacity: 0;width: 116.13%;left: calc(-8.06% + 5px);height: 83.67%;
+}
+
+.blackcelticarrow.state1-to-state2 .group .combinedshape1 {  transition: all 0.3s ease-in-out 0.2s;  width: 106.45%;top: 10.20%;left: calc(-3.23% + 1px);height: 79.59%;
+}
+
+.blackcelticarrow.state1-to-state2 .group {  pointer-events: auto;
+}
+
+.blackcelticarrow.state2-to-state1 .group .combinedshape {  transition: all 0.2s ease-in-out 0.0s;  opacity: 1;width: 100%;left: 0px;height: 73.47%;
+}
+
+.blackcelticarrow.state2-to-state1 .group .combinedshape1 {  transition: all 0.2s ease-in-out 0.0s;  width: 100%;top: 13.27%;left: 0px;height: 73.47%;
+}
+
+.blackcelticarrow.state2-to-state1 .group .combinedshape2 {  transition: all 0.2s ease-in-out 0.0s;  opacity: 1;
+}
+
+.blackcelticarrow.state2-to-state1 .group {  pointer-events: auto;
+}
+
+.blackcelticarrow.state0 {
+  
+}
+.blackcelticarrow.state1 .group {
+  pointer-events: auto;
+}
+.blackcelticarrow.state2 .group .combinedshape2 {
+  opacity: 0.0011;
+}
+.blackcelticarrow.state2 .group .combinedshape {
+  height: 83.67%;
+  width: 116.13%;
+  left: calc(-8.06% + 5px);
+  opacity: 0.0031;
+}
+.blackcelticarrow.state2 .group .combinedshape1 {
+  top: 10.20%;
+  height: 79.59%;
+  width: 106.45%;
+  left: calc(-3.23% + 1px);
+}
+.blackcelticarrow.state2 .group {
+  pointer-events: auto;
+}
+
